@@ -1,7 +1,7 @@
 .footer {
   padding-top: 80px;
   background-color: $btn-color;
-  background-image: url(../../images/footer-mobile.jpg);
+  background-image: url(../images/footer-mobile.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -60,7 +60,7 @@
 
 @media screen and (min-width: 768px) {
   .footer {
-    background-image: url(../../images/footer-desktop.jpg);
+    background-image: url(../images/footer-desktop.jpg);
   }
 
   .footer__title {
