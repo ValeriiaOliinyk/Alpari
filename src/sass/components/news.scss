@@ -1,0 +1,43 @@
+.news__box {
+  width: 250px;
+  margin: auto;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.news__icon {
+  display: block;
+  width: 40px;
+  height: 40px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  transition: transform 250ms linear;
+
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+
+.news__icon-telegram {
+  background-image: url(../../images/telegram.svg);
+}
+
+.news__icon-facebook {
+  background-image: url(../../images/facebook.svg);
+}
+
+.news__icon-mail {
+  background-image: url(../../images/mail.svg);
+}
+
+.news__img {
+  background-image: url(../../images/search.svg);
+}
+
+@media screen and (min-width: 768px) {
+  .news__box {
+    margin-top: 40px;
+  }
+}

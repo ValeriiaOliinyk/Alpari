@@ -1,0 +1,96 @@
+.footer {
+  padding-top: 80px;
+  background-color: $btn-color;
+  background-image: url(../../images/footer-mobile.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.footer__container {
+  padding-bottom: 80px;
+}
+
+.footer__input {
+  margin-top: 20px;
+}
+
+.footer__input:first-child {
+  margin: 0;
+}
+
+.footer__title {
+  font-size: 18px;
+  text-align: center;
+  color: $white-color;
+  margin-bottom: 10px;
+}
+
+.footer__text {
+  margin-top: 10px;
+  width: 200px;
+  text-align: center;
+  color: $white-color;
+  margin: auto;
+}
+
+.footer__bottom {
+  height: 60px;
+  background-color: $text-color;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer__rights {
+  color: $white-color;
+  font-size: 14px;
+}
+
+.form {
+  width: 250px;
+  display: flex;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.form__btn {
+  margin-top: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .footer {
+    background-image: url(../../images/footer-desktop.jpg);
+  }
+
+  .footer__title {
+    font-size: 28px;
+    margin-bottom: 30px;
+  }
+
+  .footer__text {
+    margin-top: 30px;
+    width: 600px;
+  }
+
+  .form {
+    width: 400px;
+    margin-top: 80px;
+  }
+
+  .form__btn {
+    margin-top: 60px;
+  }
+
+  .footer__input {
+    margin-top: 30px;
+  }
+
+  .footer__input:first-child {
+    margin: 0;
+  }
+
+  .footer__rights {
+    font-size: 18px;
+  }
+}

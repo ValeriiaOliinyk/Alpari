@@ -1,6 +1,14 @@
-/*
- * Все паршалы импортировать в этот файл
- */
-
-@import 'normalize.scss';
-@import 'base.scss';
+@import './normalize.scss';
+@import './base.scss';
+@import './variables.scss';
+@import './components/clouds.scss';
+@import './components/same.scss';
+@import './components/header.scss';
+@import './components/data.scss';
+@import './components/technology.scss';
+@import './components/environment.scss';
+@import './components/training.scss';
+@import './components/accompaniment.scss';
+@import './components/news.scss';
+@import './components/community.scss';
+@import './components/footer.scss';

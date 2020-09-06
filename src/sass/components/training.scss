@@ -1,0 +1,18 @@
+.training__img {
+  background-image: url(../../images/blogger.svg);
+}
+
+.training__btn {
+  margin-bottom: 20px;
+}
+
+@media screen and(min-width: 768px) {
+  .training__box {
+    width: 600px;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+  }
+}

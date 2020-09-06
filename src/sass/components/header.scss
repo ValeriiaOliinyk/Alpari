@@ -1,0 +1,137 @@
+.header {
+  background: linear-gradient(
+      to right,
+      rgba(0, 3, 2, 0.6) 0%,
+      rgba(28, 29, 8, 0.6) 100%
+    ),
+    url(../../images/alpari-mobile-banner.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: $back-color;
+  height: 600px;
+  background-attachment: fixed;
+}
+
+.header__box {
+  width: 280px;
+  height: 100px;
+  text-align: center;
+  margin: auto;
+}
+
+.header__text {
+  color: $white-color;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+.header__logo {
+  @extend .header__text;
+  font-size: 30px;
+  text-transform: uppercase;
+  line-height: 1.5;
+  letter-spacing: 6px;
+
+  &:hover {
+    text-decoration: none;
+    color: $white-color;
+  }
+}
+
+.header__name {
+  @extend .header__text;
+  font-size: 14px;
+}
+
+.header__title {
+  @extend .header__text;
+  font-size: 14px;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 1.5;
+}
+
+.navigation {
+  width: 280px;
+  margin: auto;
+}
+
+.timer {
+  width: 200px;
+  @extend .header__text;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+}
+
+.timer__field {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 35px;
+}
+
+.timer__value {
+  text-align: center;
+}
+
+.timer__text {
+  font-size: 10px;
+  text-align: center;
+}
+
+.timer__colon {
+  font-size: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .header {
+    background-image: linear-gradient(
+        to right,
+        rgba(0, 3, 2, 0.6) 0%,
+        rgba(28, 29, 8, 0.6) 100%
+      ),
+      url(../../images/alpari-desktop-first.jpg);
+    height: 700px;
+  }
+
+  .header__box {
+    width: 500px;
+    height: 120px;
+  }
+
+  .header__logo {
+    font-size: 42px;
+  }
+
+  .header__name {
+    font-size: 14px;
+  }
+
+  .header__title {
+    font-size: 22px;
+  }
+
+  .timer {
+    width: 500px;
+  }
+
+  .timer__field {
+    width: 100px;
+  }
+
+  .timer__text {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .timer__value {
+    font-size: 30px;
+  }
+
+  .timer__colon {
+    font-size: 34px;
+  }
+}
