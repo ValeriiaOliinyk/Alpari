@@ -84,6 +84,7 @@
 @media screen and (min-width: 768px) {
   .container {
     width: 700px;
+    margin: auto;
   }
 
   .container-box {
@@ -149,6 +150,6 @@
 
 @media screen and (min-width: 1024px) {
   .container {
-    width: 800px;
+    max-width: 800px;
   }
 }
